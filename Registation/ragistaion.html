@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>CSS Registration Form</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    </head>
+    <body>   
+
+        
+        <form action="" class="register">
+            <h1> SLBus-Tracker Registration</h1>
+            <fieldset class="row1">
+                <legend>Account Details
+                </legend>
+
+                <p>
+                     <label>username</label>
+                     <input type="text" id="input_radius" />
+
+                </p>
+
+                <p>
+                    <label>Email *
+                    </label>
+                    <input type="text" id="input_radius"/>
+                   <!--  <label>Repeat email *
+                    </label>
+                    <input type="text"/> -->
+                </p>
+                <p>
+                    <label>Password*
+                    </label>
+                    <input type="text" id="input_radius"/>
+                    <label>Repeat Password*
+                    </label>
+                    <input type="text" id="input_radius"/>
+                    
+                </p>
+            </fieldset>
+            <fieldset class="row2">
+                <legend>Personal Details
+                </legend>
+                <p>
+                    <label>Full Name
+                    </label>
+                    <input type="text" class="long" id="input_radius"/>
+                </p>
+                <p>
+                    <label>Phone *
+                    </label>
+                    <input type="text" maxlength="10" id="input_radius"/>
+                </p>
+                <p>
+                    <label >Province</label>    
+                   <!--  <input type="text" class="long"/> -->
+
+                   <select>
+                       
+                        <option value="1">Central</option>
+                        <option value="2">Western</option>
+                        <option value="3">Southern</option>
+                        <option value="4">Uva</option>
+                        <option value="5">Sabaragamuwa</option>
+                        <option value="6">North Western</option>
+                        <option value="7">North Central</option>    
+                        <option value="8">Northern</option>
+                        <option value="9">Eastern</option>
+
+                        <script type="text/javascript">
+                            
+                            var province[]={"Central","Western","Southern","Uva","'Sabaragamuwa","North Western","North Central",
+                            "Northern","Eastern"};
+                        </script>
+                   </select>
+                </p>
+
+                 <p>
+                    <label >Distric</label>
+                    <select>
+                        
+                        <option value="1">Kandy</option>
+                        <option value="2">Ampara</option>
+                        <option value="3">Badulla</option>
+                        <option value="4">Anuradapura</option>
+                        <option value="5">Batticaloa</option>
+                        <option value="6">Colombo</option>
+                        <option value="7">Galle</option>
+                        <option value="8">Gampaha</option>
+                        <option value="9">Hambantota</option>
+                        <option value="10">Jafna</option>
+                        <option value="11">Kaluthara</option>
+                        <option value="12">Kegalle</option>
+                        <option value="13">Kurunegala</option>
+                        <option value="14">Kilinochchi</option>
+                        <option value="15">Mannar</option>
+                        <option value="16">Matale</option>
+                        <option value="17">Matara</option>
+                        <option value="18">Mullaitivu</option>
+                        <option value="19">Nuwara Eliya</option>
+                        <option value="20">Polonnaruwa</option>
+                        <option value="21">Puttalam</option>
+                        <option value="22">Trincomalee</option>
+                        <option value="23">Ratnapura</option>
+                        <option value="24">Vavuniya</option>
+                        <option value="25">Monaragala</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label>Hometown
+                    </label>
+                    <input type="text" class="long" id="input_radius"/>
+                </p>
+                
+                <p>
+                    <label class="optional">Website
+                    </label>
+                    <input class="long" type="text" id="input_radius" value="http://"/>
+
+                </p>
+            </fieldset>
+            <fieldset class="row3">
+                <legend>Further Information
+                </legend>
+                <p>
+                    <label>Gender *</label>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" id="input_radius" name="gender">Male 
+                            </td>
+
+                            <td><label></label></td>
+                           
+                            <td>
+                                 <input type="radio" id="input_radius" name="gender">Femal
+                            </td>
+
+                        </tr>
+
+                    </table>
+                    
+                      
+                   
+                    
+                </p>
+                <p>
+                    <label>Birthdate * </label>
+                   
+                    <select class="date">
+                        <option value="1">01
+                        </option>
+                        <option value="2">02
+                        </option>
+                        <option value="3">03
+                        </option>
+                        <option value="4">04
+                        </option>
+                        <option value="5">05
+                        </option>
+                        <option value="6">06
+                        </option>
+                        <option value="7">07
+                        </option>
+                        <option value="8">08
+                        </option>
+                        <option value="9">09
+                        </option>
+                        <option value="10">10
+                        </option>
+                        <option value="11">11
+                        </option>
+                        <option value="12">12
+                        </option>
+                        <option value="13">13
+                        </option>
+                        <option value="14">14
+                        </option>
+                        <option value="15">15
+                        </option>
+                        <option value="16">16
+                        </option>
+                        <option value="17">17
+                        </option>
+                        <option value="18">18
+                        </option>
+                        <option value="19">19
+                        </option>
+                        <option value="20">20
+                        </option>
+                        <option value="21">21
+                        </option>
+                        <option value="22">22
+                        </option>
+                        <option value="23">23
+                        </option>
+                        <option value="24">24
+                        </option>
+                        <option value="25">25
+                        </option>
+                        <option value="26">26
+                        </option>
+                        <option value="27">27
+                        </option>
+                        <option value="28">28
+                        </option>
+                        <option value="29">29
+                        </option>
+                        <option value="30">30
+                        </option>
+                        <option value="31">31
+                        </option>
+                    </select>
+                    <select>
+                        <option value="1">January
+                        </option>
+                        <option value="2">February
+                        </option>
+                        <option value="3">March
+                        </option>
+                        <option value="4">April
+                        </option>
+                        <option value="5">May
+                        </option>
+                        <option value="6">June
+                        </option>
+                        <option value="7">July
+                        </option>
+                        <option value="8">August
+                        </option>
+                        <option value="9">September
+                        </option>
+                        <option value="10">October
+                        </option>
+                        <option value="11">November
+                        </option>
+                        <option value="12">December
+                        </option>
+                    </select>
+                    <input class="year" type="text" id="input_radius" size="4" maxlength="4"/>e.g 1976
+                </p>
+
+                <p>
+                    <label> your Age</label>
+                    <input type="text" id="input_radius" name="">
+
+                </p>
+
+                <p>
+                    <label>Nationality *
+                    </label>
+                    <select>
+                        <option value="0">
+                        </option>
+                            <option value="1">United States
+                            <option value="2">Sinhala
+                        </option>
+                    </select>
+                </p>
+
+                <table>
+                    <tr>
+                       
+                        <td>
+                             <p>
+                                  <label>Yung *</label>
+                                  <input type="radio" value="yang" name="age_cat">
+                            </p>
+                        </td>
+
+                        <td>
+                             <p>
+                                  <label>Adult *</label>
+                                  <input type="radio" value="audult" name="age_cat">
+                            </p>
+                        </td>
+                    </tr>
+
+
+                </table>
+                
+
+               
+                
+               
+            </fieldset>
+
+                <!-- Hobbies -->
+            <fieldset class="row1">
+
+                <legend>Hobbies</legend>
+                
+
+                <table>
+                    <!-- 1 st row -->
+                    <tr>
+                        <td>
+                             <p >
+                                 <label>Traveling</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Music</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Dancing</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Reading</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+                    </tr>
+
+                    <!-- 2 nd row -->
+                    <tr>
+                        <td>
+                             <p >
+                                 <label>Game</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Writing</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>camping</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Reading</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                    </tr>
+
+                    <!-- Therd row -->
+
+                    <tr>
+                        <td>
+                             <p >
+                                 <label>Painting</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Dwawing</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Makeup</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Cocking</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+                    </tr>
+
+                    <!-- fourth row -->
+
+                    <tr>
+                        <td>
+                             <p >
+                                 <label>Photography</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Sweming</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Gardening</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Learn a Languadge</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+                    </tr>
+
+                    <!-- five row -->
+
+                    <tr>
+                        <td>
+                             <p >
+                                 <label>Podcasting</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Dog sitting</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Candle Marking</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+
+                         <td>
+                             <p >
+                                 <label>Pottery</label>
+                                 <input type="checkbox" name="">                  
+                             </p>
+                        </td>
+                    </tr>
+                </table>
+               
+
+
+
+            </fieldset>
+
+            <fieldset class="row4">
+                <legend>Terms and Mailing
+                </legend>
+                <p class="agreement">
+                    <input type="checkbox" value=""/>
+                    <label> I accept the <a href="#">Terms and Conditions</a></label>
+                </p>
+                <p class="agreement">
+                    <input type="checkbox" value=""/>
+                    <label>I want to receive personalized offers by your site</label>
+                </p>
+                <p class="agreement">
+                    <input type="checkbox" value=""/>
+                    <label>Allow partners to send me personalized offers and related services</label>
+                </p>
+            </fieldset>
+            <div><button class="button">Register &raquo;</button></div>
+          
+        </form>
+
+
+    </body>
+</html>
+
+
+
+
+
